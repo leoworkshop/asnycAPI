@@ -1,0 +1,21 @@
+default:
+  app:
+    name: Hello world application
+    version: 0.1.0
+
+  broker:
+    mqtt:
+      url: mqtt://83
+      topics: ["hello"]
+      qos:
+      protocol: mqtt
+      retain:
+      subscribe: true
+
+development:
+
+test:
+
+staging:
+
+production:
